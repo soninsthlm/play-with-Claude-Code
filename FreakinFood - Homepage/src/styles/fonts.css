@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&family=Be+Vietnam+Pro:ital,wght@0,300;0,400;0,500;0,600;1,400&family=Inter:wght@300;400;500;600;700&family=Liberation+Serif:wght@700&display=swap');
+
+/* 
+  Fix Figma-exported font-family names to real CSS font-families.
+  Figma exports fonts like font-['Newsreader:Extra_Light_Italic',sans-serif]
+  which browsers cannot resolve. These rules map them to proper fonts.
+*/
+
+/* Newsreader variants */
+[class*="font-['Newsreader:Extra_Light_Italic'"] {
+  font-family: 'Newsreader', serif !important;
+  font-weight: 200 !important;
+  font-style: italic !important;
+}
+[class*="font-['Newsreader:Extra_Light_Italic'"].not-italic {
+  font-style: italic !important;
+}
+[class*="font-['Newsreader:Regular'"] {
+  font-family: 'Newsreader', serif !important;
+  font-weight: 400 !important;
+  font-style: normal !important;
+}
+[class*="font-['Newsreader:Medium'"] {
+  font-family: 'Newsreader', serif !important;
+  font-weight: 500 !important;
+  font-style: normal !important;
+}
+[class*="font-['Newsreader:Semi_Bold'"] {
+  font-family: 'Newsreader', serif !important;
+  font-weight: 600 !important;
+  font-style: normal !important;
+}
+[class*="font-['Newsreader:Light_Italic'"] {
+  font-family: 'Newsreader', serif !important;
+  font-weight: 300 !important;
+  font-style: italic !important;
+}
+
+/* Be Vietnam Pro variants */
+[class*="font-['Be_Vietnam_Pro:Regular'"] {
+  font-family: 'Be Vietnam Pro', sans-serif !important;
+  font-weight: 400 !important;
+  font-style: normal !important;
+}
+[class*="font-['Be_Vietnam_Pro:Medium'"] {
+  font-family: 'Be Vietnam Pro', sans-serif !important;
+  font-weight: 500 !important;
+  font-style: normal !important;
+}
+[class*="font-['Be_Vietnam_Pro:Light'"] {
+  font-family: 'Be Vietnam Pro', sans-serif !important;
+  font-weight: 300 !important;
+  font-style: normal !important;
+}
+
+/* Inter variants */
+[class*="font-['Inter:Regular'"] {
+  font-family: 'Inter', sans-serif !important;
+  font-weight: 400 !important;
+  font-style: normal !important;
+}
+[class*="font-['Inter:Medium'"] {
+  font-family: 'Inter', sans-serif !important;
+  font-weight: 500 !important;
+  font-style: normal !important;
+}
+[class*="font-['Inter:Semi_Bold'"] {
+  font-family: 'Inter', sans-serif !important;
+  font-weight: 600 !important;
+  font-style: normal !important;
+}
+
+/* Liberation Serif fallback */
+[class*="font-['Liberation_Serif:Bold'"] {
+  font-family: 'Liberation Serif', 'Newsreader', serif !important;
+  font-weight: 700 !important;
+  font-style: normal !important;
+}

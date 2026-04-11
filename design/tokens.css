@@ -1,0 +1,71 @@
+/*
+ * FreakinFood Design Tokens
+ * Extracted from Figma Make — Editorial Style Design System
+ *
+ * Source: https://www.figma.com/design/3qhNsm6Xz0qQ82oEaiXqEC/UI-Design
+ */
+
+:root {
+  /* === Colors (from Figma theme.css) === */
+  --ff-primary: #264224;           /* Deep forest green — headings, nav, buttons */
+  --ff-primary-gradient: linear-gradient(135deg, #264224 0%, #3d5a39 100%);
+  --ff-secondary: #9c4326;         /* Burnt sienna — labels, accents, CTAs */
+  --ff-secondary-alt: #9d4225;     /* Accent variant (icon fills, underlines) */
+  --ff-background: #fbf9f8;        /* Warm ivory page background */
+  --ff-surface: #ffffff;            /* White (cards, quote box) */
+  --ff-surface-muted: #f6f3f2;     /* Muted surface (sidebar, story card bg) */
+  --ff-text: #1b1c1c;              /* Near-black (nav links, primary text) */
+  --ff-text-body: #434840;         /* Body text (softer green-grey) */
+  --ff-text-muted: #72796e;        /* Muted text (meta, timestamps) */
+  --ff-border: rgba(195, 200, 189, 0.2); /* Subtle green-tint border */
+  --ff-border-solid: #c3c8bd;      /* Solid border (dividers, separators) */
+  --ff-accent: #eae7e5;            /* Light warm grey (accents, hover bg) */
+  --ff-destructive: #d4183d;       /* Error / destructive */
+
+  /* === Typography (from Figma fonts.css) === */
+  /* Newsreader — Editorial serif headlines (Extra Light Italic, Regular, Medium, Semi Bold) */
+  --ff-font-editorial: 'Newsreader', serif;
+  /* Be Vietnam Pro — Body text (Light 300, Regular 400, Medium 500, Semi Bold 600) */
+  --ff-font-body: 'Be Vietnam Pro', sans-serif;
+  /* Inter — UI elements, labels, nav, meta (Regular 400, Medium 500, Semi Bold 600) */
+  --ff-font-ui: 'Inter', sans-serif;
+
+  --ff-font-size-base: 16px;
+
+  /* === Key Typography Specimens (from Figma components) === */
+  /* Hero headline: Newsreader ExtraLight Italic, 96px, tracking -2.4px, color #264224 */
+  /* Section titles: Newsreader ExtraLight Italic, 36px, color #264224 */
+  /* Card titles: Newsreader ExtraLight Italic, 30px, color #264224 */
+  /* Body text: Be Vietnam Pro Regular, 20px, leading 28px, color #434840 */
+  /* Labels: Inter Regular, 12px, uppercase, tracking 2.4px, color #9d4225 */
+  /* Meta text: Inter Regular, 12px, color #434840 */
+  /* Buttons: Inter Regular, 14px, uppercase, tracking 0.7px, white on gradient */
+  /* Tags: Inter Regular, 14px (sidebar) / 10px (card meta), uppercase, tracking 1px */
+
+  /* === Spacing === */
+  --ff-space-xs: 0.25rem;    /* 4px */
+  --ff-space-sm: 0.5rem;     /* 8px */
+  --ff-space-md: 1rem;       /* 16px */
+  --ff-space-lg: 1.5rem;     /* 24px */
+  --ff-space-xl: 2rem;       /* 32px */
+  --ff-space-2xl: 3rem;      /* 48px */
+  --ff-space-3xl: 4rem;      /* 64px */
+  --ff-space-4xl: 6rem;      /* 96px */
+
+  /* === Border Radius === */
+  --ff-radius-sm: 6px;       /* Buttons */
+  --ff-radius-md: 10px;      /* Base radius (from Figma --radius: 0.625rem) */
+  --ff-radius-lg: 12px;      /* Cards, images, sidebar widgets */
+  --ff-radius-xl: 16px;
+  --ff-radius-full: 9999px;
+
+  /* === Shadows (from Figma component styles) === */
+  --ff-shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+  --ff-shadow-md: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
+  --ff-shadow-lg: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  --ff-shadow-card: 0 20px 25px -5px rgba(38, 66, 36, 0.1), 0 8px 10px -6px rgba(38, 66, 36, 0.1);
+
+  /* === Layout === */
+  --ff-container-max: 1280px;
+  --ff-container-padding: 1.5rem;
+}
