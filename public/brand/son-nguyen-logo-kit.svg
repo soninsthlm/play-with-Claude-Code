@@ -1,0 +1,240 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="2800" viewBox="0 0 1200 2800">
+  <defs>
+    <linearGradient id="gold-gradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F2C94C"/>
+      <stop offset="50%" stop-color="#F2994A"/>
+      <stop offset="100%" stop-color="#F2C94C"/>
+    </linearGradient>
+    <linearGradient id="ring-grad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F2C94C" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#F2994A" stop-opacity="0.3"/>
+    </linearGradient>
+    <radialGradient id="bg-dark" cx="0.3" cy="0.3" r="0.8">
+      <stop offset="0%" stop-color="rgba(242,201,76,0.06)"/>
+      <stop offset="100%" stop-color="#111111"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="2800" fill="#0A0A0A"/>
+
+  <!-- ============================================ -->
+  <!-- HEADER -->
+  <!-- ============================================ -->
+  <text x="600" y="60" text-anchor="middle" fill="#F2C94C" font-family="Cinzel, Georgia, serif" font-size="24" font-weight="700" letter-spacing="6">SON NGUYEN</text>
+  <text x="600" y="88" text-anchor="middle" fill="#888" font-family="Inter, sans-serif" font-size="12" letter-spacing="4">BRAND LOGO KIT</text>
+  <line x1="100" y1="110" x2="1100" y2="110" stroke="#F2C94C" stroke-opacity="0.15" stroke-width="1"/>
+
+
+  <!-- ============================================ -->
+  <!-- 01. LOGO VARIATIONS -->
+  <!-- ============================================ -->
+  <text x="100" y="170" fill="#F2C94C" font-family="Cinzel, Georgia, serif" font-size="16" font-weight="600" letter-spacing="2">01</text>
+  <text x="140" y="170" fill="#999" font-family="Inter, sans-serif" font-size="14" font-weight="500" letter-spacing="2">LOGO VARIATIONS</text>
+  <line x1="100" y1="185" x2="1100" y2="185" stroke="#333" stroke-width="0.5"/>
+
+  <!-- Primary Mark - Dark -->
+  <text x="100" y="220" fill="#555" font-family="Inter, sans-serif" font-size="10" letter-spacing="1">PRIMARY MARK</text>
+  <g transform="translate(100, 240)">
+    <rect x="0" y="0" width="120" height="120" rx="30" fill="url(#bg-dark)" stroke="url(#ring-grad)" stroke-width="2"/>
+    <path d="M30 10 L66 48 L30 48 L66 110" stroke="url(#gold-gradient)" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  </g>
+
+  <!-- Horizontal Lockup -->
+  <text x="300" y="220" fill="#555" font-family="Inter, sans-serif" font-size="10" letter-spacing="1">HORIZONTAL LOCKUP</text>
+  <g transform="translate(300, 255)">
+    <rect x="0" y="0" width="64" height="64" rx="16" fill="url(#bg-dark)" stroke="url(#ring-grad)" stroke-width="1.5"/>
+    <path d="M16 5 L35 26 L16 26 L35 59" stroke="url(#gold-gradient)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <text x="80" y="28" fill="#F2C94C" font-family="Cinzel, Georgia, serif" font-size="24" font-weight="700" letter-spacing="2">SON</text>
+    <text x="80" y="52" fill="#CCCCCC" font-family="Cinzel, Georgia, serif" font-size="24" font-weight="400" letter-spacing="2">NGUYEN</text>
+  </g>
+
+  <!-- With tagline -->
+  <g transform="translate(300, 340)">
+    <rect x="0" y="0" width="48" height="48" rx="12" fill="url(#bg-dark)" stroke="url(#ring-grad)" stroke-width="1"/>
+    <path d="M12 4 L26 19 L12 19 L26 44" stroke="url(#gold-gradient)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <text x="62" y="20" fill="#F2C94C" font-family="Cinzel, Georgia, serif" font-size="18" font-weight="700" letter-spacing="1">SON NGUYEN</text>
+    <text x="62" y="40" fill="#888" font-family="Inter, sans-serif" font-size="9" letter-spacing="3">GROWTH MARKETING MANAGER</text>
+  </g>
+
+  <!-- Stacked -->
+  <text x="720" y="220" fill="#555" font-family="Inter, sans-serif" font-size="10" letter-spacing="1">STACKED LOCKUP</text>
+  <g transform="translate(720, 235)">
+    <rect x="30" y="0" width="120" height="120" rx="30" fill="url(#bg-dark)" stroke="url(#ring-grad)" stroke-width="2"/>
+    <path d="M56 10 L99 50 L56 50 L99 110" stroke="url(#gold-gradient)" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <text x="90" y="148" text-anchor="middle" fill="#F2C94C" font-family="Cinzel, Georgia, serif" font-size="20" font-weight="700" letter-spacing="4">SON</text>
+    <text x="90" y="170" text-anchor="middle" fill="#CCC" font-family="Cinzel, Georgia, serif" font-size="20" font-weight="400" letter-spacing="4">NGUYEN</text>
+  </g>
+
+  <!-- Mark Only -->
+  <text x="960" y="220" fill="#555" font-family="Inter, sans-serif" font-size="10" letter-spacing="1">MARK ONLY</text>
+  <g transform="translate(970, 260)">
+    <path d="M0 0 L35 35 L0 35 L35 90" stroke="url(#gold-gradient)" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  </g>
+
+  <!-- Light versions row -->
+  <rect x="100" y="440" width="1000" height="150" rx="12" fill="#F5F5F5"/>
+  <text x="120" y="430" fill="#555" font-family="Inter, sans-serif" font-size="10" letter-spacing="1">LIGHT BACKGROUND</text>
+
+  <g transform="translate(130, 465)">
+    <rect x="0" y="0" width="100" height="100" rx="24" fill="#FFF" stroke="#E0E0E0" stroke-width="1.5"/>
+    <path d="M25 8 L55 40 L25 40 L55 92" stroke="#1A1A1A" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  </g>
+
+  <g transform="translate(290, 480)">
+    <rect x="0" y="0" width="56" height="56" rx="14" fill="#FFF" stroke="#E0E0E0" stroke-width="1"/>
+    <path d="M14 4 L31 23 L14 23 L31 52" stroke="#1A1A1A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <text x="70" y="24" fill="#1A1A1A" font-family="Cinzel, Georgia, serif" font-size="22" font-weight="700" letter-spacing="2">SON</text>
+    <text x="70" y="46" fill="#555" font-family="Cinzel, Georgia, serif" font-size="22" font-weight="400" letter-spacing="2">NGUYEN</text>
+  </g>
+
+  <g transform="translate(730, 490)">
+    <path d="M0 0 L30 30 L0 30 L30 78" stroke="#1A1A1A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  </g>
+
+  <g transform="translate(830, 490)">
+    <path d="M0 0 L30 30 L0 30 L30 78" stroke="#D4A017" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  </g>
+
+
+  <!-- ============================================ -->
+  <!-- 02. COLOR PALETTE -->
+  <!-- ============================================ -->
+  <text x="100" y="660" fill="#F2C94C" font-family="Cinzel, Georgia, serif" font-size="16" font-weight="600" letter-spacing="2">02</text>
+  <text x="140" y="660" fill="#999" font-family="Inter, sans-serif" font-size="14" font-weight="500" letter-spacing="2">COLOR PALETTE</text>
+  <line x1="100" y1="675" x2="1100" y2="675" stroke="#333" stroke-width="0.5"/>
+
+  <rect x="100" y="700" width="155" height="100" rx="10" fill="#F2C94C"/>
+  <text x="177" y="740" text-anchor="middle" fill="#111" font-family="Cinzel, Georgia, serif" font-size="14" font-weight="700">Solar Gold</text>
+  <text x="177" y="760" text-anchor="middle" fill="#333" font-family="Inter, sans-serif" font-size="10">#F2C94C</text>
+
+  <rect x="275" y="700" width="155" height="100" rx="10" fill="#F2994A"/>
+  <text x="352" y="740" text-anchor="middle" fill="#111" font-family="Cinzel, Georgia, serif" font-size="14" font-weight="700">Amber</text>
+  <text x="352" y="760" text-anchor="middle" fill="#333" font-family="Inter, sans-serif" font-size="10">#F2994A</text>
+
+  <rect x="450" y="700" width="155" height="100" rx="10" fill="#EB5757"/>
+  <text x="527" y="740" text-anchor="middle" fill="#FFF" font-family="Cinzel, Georgia, serif" font-size="14" font-weight="700">Warm Red</text>
+  <text x="527" y="760" text-anchor="middle" fill="#EEE" font-family="Inter, sans-serif" font-size="10">#EB5757</text>
+
+  <rect x="625" y="700" width="155" height="100" rx="10" fill="#111111" stroke="#333" stroke-width="1"/>
+  <text x="702" y="740" text-anchor="middle" fill="#CCC" font-family="Cinzel, Georgia, serif" font-size="14" font-weight="700">Deep Black</text>
+  <text x="702" y="760" text-anchor="middle" fill="#888" font-family="Inter, sans-serif" font-size="10">#111111</text>
+
+  <rect x="800" y="700" width="155" height="100" rx="10" fill="#F5F5F5" stroke="#E0E0E0" stroke-width="1"/>
+  <text x="877" y="740" text-anchor="middle" fill="#333" font-family="Cinzel, Georgia, serif" font-size="14" font-weight="700">Off White</text>
+  <text x="877" y="760" text-anchor="middle" fill="#555" font-family="Inter, sans-serif" font-size="10">#F5F5F5</text>
+
+  <rect x="975" y="700" width="125" height="100" rx="10" fill="#888888"/>
+  <text x="1037" y="740" text-anchor="middle" fill="#111" font-family="Cinzel, Georgia, serif" font-size="14" font-weight="700">Muted</text>
+  <text x="1037" y="760" text-anchor="middle" fill="#222" font-family="Inter, sans-serif" font-size="10">#888888</text>
+
+
+  <!-- ============================================ -->
+  <!-- 03. TYPOGRAPHY -->
+  <!-- ============================================ -->
+  <text x="100" y="880" fill="#F2C94C" font-family="Cinzel, Georgia, serif" font-size="16" font-weight="600" letter-spacing="2">03</text>
+  <text x="140" y="880" fill="#999" font-family="Inter, sans-serif" font-size="14" font-weight="500" letter-spacing="2">TYPOGRAPHY</text>
+  <line x1="100" y1="895" x2="1100" y2="895" stroke="#333" stroke-width="0.5"/>
+
+  <!-- Cinzel -->
+  <g transform="translate(100, 930)">
+    <text x="0" y="0" fill="#F2C94C" font-family="Cinzel, Georgia, serif" font-size="11" font-weight="600" letter-spacing="2">DISPLAY</text>
+    <text x="0" y="42" fill="#F2C94C" font-family="Cinzel, Georgia, serif" font-size="40" font-weight="700">Cinzel</text>
+    <text x="0" y="72" fill="#888" font-family="Inter, sans-serif" font-size="12">Brand name, headlines, section titles. Inspired by Roman inscriptions.</text>
+    <text x="0" y="105" fill="#CCC" font-family="Cinzel, Georgia, serif" font-size="18" font-weight="700" letter-spacing="1">A B C D E F G H I J K L M N O P Q R S T U V W X Y Z</text>
+    <text x="0" y="130" fill="#999" font-family="Cinzel, Georgia, serif" font-size="18" font-weight="400" letter-spacing="1">a b c d e f g h i j k l m n o p q r s t u v w x y z  0 1 2 3 4 5 6 7 8 9</text>
+    <text x="0" y="168" fill="#AAA" font-family="Cinzel, Georgia, serif" font-size="20" font-weight="400">Regular 400</text>
+    <text x="250" y="168" fill="#CCC" font-family="Cinzel, Georgia, serif" font-size="20" font-weight="600">Semibold 600</text>
+    <text x="520" y="168" fill="#F2C94C" font-family="Cinzel, Georgia, serif" font-size="20" font-weight="700">Bold 700</text>
+  </g>
+
+  <!-- Inter -->
+  <g transform="translate(100, 1130)">
+    <text x="0" y="0" fill="#F2C94C" font-family="Cinzel, Georgia, serif" font-size="11" font-weight="600" letter-spacing="2">BODY</text>
+    <text x="0" y="42" fill="#CCC" font-family="Inter, sans-serif" font-size="40" font-weight="700">Inter</text>
+    <text x="0" y="72" fill="#888" font-family="Inter, sans-serif" font-size="12">Body copy, taglines, UI text, and all functional content.</text>
+    <text x="0" y="105" fill="#CCC" font-family="Inter, sans-serif" font-size="18" font-weight="700" letter-spacing="1">A B C D E F G H I J K L M N O P Q R S T U V W X Y Z</text>
+    <text x="0" y="130" fill="#999" font-family="Inter, sans-serif" font-size="18" font-weight="400" letter-spacing="1">a b c d e f g h i j k l m n o p q r s t u v w x y z  0 1 2 3 4 5 6 7 8 9</text>
+    <text x="0" y="168" fill="#AAA" font-family="Inter, sans-serif" font-size="20" font-weight="400">Regular 400</text>
+    <text x="250" y="168" fill="#CCC" font-family="Inter, sans-serif" font-size="20" font-weight="500">Medium 500</text>
+    <text x="500" y="168" fill="#EEE" font-family="Inter, sans-serif" font-size="20" font-weight="600">Semibold 600</text>
+  </g>
+
+
+  <!-- ============================================ -->
+  <!-- 04. BRAND STORY -->
+  <!-- ============================================ -->
+  <text x="100" y="1380" fill="#F2C94C" font-family="Cinzel, Georgia, serif" font-size="16" font-weight="600" letter-spacing="2">04</text>
+  <text x="140" y="1380" fill="#999" font-family="Inter, sans-serif" font-size="14" font-weight="500" letter-spacing="2">BRAND STORY</text>
+  <line x1="100" y1="1395" x2="1100" y2="1395" stroke="#333" stroke-width="0.5"/>
+
+  <!-- Decorative rune watermark -->
+  <g transform="translate(100, 1420)">
+    <path d="M0 0 L50 55 L0 55 L50 130" stroke="url(#gold-gradient)" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.12"/>
+  </g>
+
+  <text x="180" y="1460" fill="#F2C94C" font-family="Cinzel, Georgia, serif" font-size="24" font-weight="700">The Sowilo Rune  —  ᛊ</text>
+  <text x="180" y="1485" fill="#CCC" font-family="Cinzel, Georgia, serif" font-size="13" font-weight="400" font-style="italic">Old Norse: "Sol" — The Sun</text>
+
+  <text x="180" y="1525" fill="#AAA" font-family="Inter, sans-serif" font-size="13" font-weight="400" letter-spacing="0.3">
+    <tspan x="180" dy="0">The mark at the heart of this identity is Sowilo (ᛊ), a rune from the Elder Futhark — the oldest</tspan>
+    <tspan x="180" dy="20">runic alphabet used across Scandinavia over a thousand years ago. Sowilo represents the sun,</tspan>
+    <tspan x="180" dy="20">and its angular, lightning-bolt form carries meanings of energy, victory, and forward motion.</tspan>
+  </text>
+
+  <text x="180" y="1610" fill="#AAA" font-family="Inter, sans-serif" font-size="13" font-weight="400" letter-spacing="0.3">
+    <tspan x="180" dy="0">For Son, this symbol bridges two worlds. It is the letter S — his initial — rendered in the language</tspan>
+    <tspan x="180" dy="20">of his adopted home, Sweden. A Vietnamese storyteller who found his creative voice in Stockholm,</tspan>
+    <tspan x="180" dy="20">Son chose the Sowilo rune because it speaks to who he is: someone who brings light and</tspan>
+    <tspan x="180" dy="20">momentum to every brand he touches.</tspan>
+  </text>
+
+  <text x="180" y="1710" fill="#AAA" font-family="Inter, sans-serif" font-size="13" font-weight="400" letter-spacing="0.3">
+    <tspan x="180" dy="0">The shape itself tells a story of transformation — a single stroke that changes direction twice,</tspan>
+    <tspan x="180" dy="20">moving upward, pivoting, and surging forward again. Much like a growth marketing career built</tspan>
+    <tspan x="180" dy="20">across continents — from grassroots NGOs in Hanoi to global brands in Stockholm — the mark</tspan>
+    <tspan x="180" dy="20">embodies resilience, adaptability, and the power of a well-told story.</tspan>
+  </text>
+
+  <text x="180" y="1800" fill="#AAA" font-family="Inter, sans-serif" font-size="13" font-weight="400" letter-spacing="0.3">
+    <tspan x="180" dy="0">Set in Solar Gold against deep black, the Sowilo rune becomes both a personal signature and a</tspan>
+    <tspan x="180" dy="20">brand promise: clarity through creativity, impact through intention, and always — forward.</tspan>
+  </text>
+
+
+  <!-- ============================================ -->
+  <!-- 05. KEY SYMBOLISM -->
+  <!-- ============================================ -->
+  <text x="100" y="1910" fill="#F2C94C" font-family="Cinzel, Georgia, serif" font-size="16" font-weight="600" letter-spacing="2">05</text>
+  <text x="140" y="1910" fill="#999" font-family="Inter, sans-serif" font-size="14" font-weight="500" letter-spacing="2">KEY SYMBOLISM</text>
+  <line x1="100" y1="1925" x2="1100" y2="1925" stroke="#333" stroke-width="0.5"/>
+
+  <rect x="100" y="1950" width="480" height="70" rx="8" fill="#111" stroke="#222" stroke-width="1"/>
+  <text x="130" y="1982" fill="#F2C94C" font-family="Cinzel, Georgia, serif" font-size="14" font-weight="600">ᛊ   Sun &amp; Light</text>
+  <text x="130" y="2002" fill="#AAA" font-family="Inter, sans-serif" font-size="11">Illumination, warmth, and the power to make things grow.</text>
+
+  <rect x="600" y="1950" width="480" height="70" rx="8" fill="#111" stroke="#222" stroke-width="1"/>
+  <text x="630" y="1982" fill="#F2C94C" font-family="Cinzel, Georgia, serif" font-size="14" font-weight="600">⚡   Energy &amp; Momentum</text>
+  <text x="630" y="2002" fill="#AAA" font-family="Inter, sans-serif" font-size="11">Kinetic energy — campaigns that move, content that strikes.</text>
+
+  <rect x="100" y="2040" width="480" height="70" rx="8" fill="#111" stroke="#222" stroke-width="1"/>
+  <text x="130" y="2072" fill="#F2C94C" font-family="Cinzel, Georgia, serif" font-size="14" font-weight="600">🌏   East Meets North</text>
+  <text x="130" y="2092" fill="#AAA" font-family="Inter, sans-serif" font-size="11">A Vietnamese name initialed in Viking script — two cultures, one mark.</text>
+
+  <rect x="600" y="2040" width="480" height="70" rx="8" fill="#111" stroke="#222" stroke-width="1"/>
+  <text x="630" y="2072" fill="#F2C94C" font-family="Cinzel, Georgia, serif" font-size="14" font-weight="600">↗   Forward Motion</text>
+  <text x="630" y="2092" fill="#AAA" font-family="Inter, sans-serif" font-size="11">The stroke resolves forward — growth, progress, the next chapter.</text>
+
+
+  <!-- ============================================ -->
+  <!-- FOOTER -->
+  <!-- ============================================ -->
+  <line x1="100" y1="2200" x2="1100" y2="2200" stroke="#F2C94C" stroke-opacity="0.15" stroke-width="1"/>
+  <g transform="translate(600, 2240)">
+    <path d="M-8 -12 L4 0 L-8 0 L4 16" stroke="url(#gold-gradient)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  </g>
+  <text x="600" y="2275" text-anchor="middle" fill="#F2C94C" font-family="Cinzel, Georgia, serif" font-size="14" font-weight="600" letter-spacing="3">SON NGUYEN</text>
+  <text x="600" y="2300" text-anchor="middle" fill="#666" font-family="Inter, sans-serif" font-size="10" letter-spacing="2">GROWTH MARKETING MANAGER</text>
+  <text x="600" y="2325" text-anchor="middle" fill="#444" font-family="Inter, sans-serif" font-size="10">Stockholm, Sweden</text>
+
+</svg>

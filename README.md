@@ -1,9 +1,11 @@
-# Play with Claude Code
 
-Experiments and projects built with Claude Code.
+  # Portfolio for Creative Works
 
-## Branches
+  This is a code bundle for Portfolio for Creative Works. The original project is available at https://www.figma.com/design/j4F5z5S1g7JXWfJYSL6VZa/Portfolio-for-Creative-Works.
 
-| Branch | Description |
-|--------|-------------|
-| [`video/fade-in`](../../tree/video/fade-in) | Animated text fade-in video (Remotion) — dark background, white text, blue accent |
+  ## Running the code
+
+  Run `npm i` to install the dependencies.
+
+  Run `npm run dev` to start the development server.
+  
