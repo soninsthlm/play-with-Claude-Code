@@ -1,0 +1,35 @@
+<script type='text/javascript'>
+//<![CDATA[
+(function () {
+  var menu = document.getElementById('menu');
+  if (!menu) { return; }
+  var nav = menu.querySelector('ul#nav');
+  if (!nav || menu.querySelector('.ff-nav-toggle')) { return; }
+
+  var btn = document.createElement('button');
+  btn.type = 'button';
+  btn.className = 'ff-nav-toggle';
+  btn.setAttribute('aria-label', 'Menu');
+  btn.setAttribute('aria-expanded', 'false');
+  btn.setAttribute('aria-controls', 'nav');
+  btn.innerHTML = '<span></span><span></span><span></span>';
+
+  function setOpen(open) {
+    if (open) { menu.className += ' ff-nav-open'; }
+    else { menu.className = menu.className.replace(/\s*ff-nav-open/g, ''); }
+    btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+  }
+  function isOpen() { return menu.className.indexOf('ff-nav-open') > -1; }
+
+  btn.onclick = function (e) { e.stopPropagation(); setOpen(!isOpen()); };
+  document.addEventListener('click', function (e) {
+    if (isOpen() && !menu.contains(e.target)) { setOpen(false); }
+  });
+  document.addEventListener('keydown', function (e) {
+    if (e.keyCode === 27) { setOpen(false); }
+  });
+
+  menu.insertBefore(btn, menu.firstChild);
+})();
+//]]>
+</script>
